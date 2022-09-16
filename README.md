@@ -6,7 +6,7 @@ There is a file called `sitemapbuilder.js` that runs after the build to generate
 
 ## Deploy Your Own
 
-Deploy your own Create React App project with Vercel.
+Test out sitemap generation in Vercel:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Speediing/create-react-app-sitemap)
 
