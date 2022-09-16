@@ -2,6 +2,8 @@
 
 This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site with sitemap generation that can be deployed to Vercel with zero configuration.
 
+There is a file called `sitemapbuilder.js` that runs after the build to generate a sitemap based on the React Router Configuration
+
 ## Deploy Your Own
 
 Deploy your own Create React App project with Vercel.
