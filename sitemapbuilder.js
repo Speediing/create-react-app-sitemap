@@ -26,7 +26,7 @@ require('@babel/register')({
 // (
 // 	new Sitemap(router)
 // 		.build('http://my-site.ru')
-// 		.save('./sitemap.xml')
+// 		.save('./build/sitemap.xml')
 // );
 const sitemap = `<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <!--
@@ -48,4 +48,4 @@ https://www.gymshark.com/sitemap_products_1.xml?from=6453246788&to=6805016412362
 </sitemap>
 </sitemapindex>`
 
-fs.writeFileSync('./sitemap.xml', sitemap);
+fs.writeFileSync('./build/sitemap.xml', sitemap);
