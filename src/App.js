@@ -5,7 +5,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import { Routes } from "./Routes";
+import Routes from "./Routes";
+
 
 // This site has 3 pages, all of which are rendered
 // dynamically in the browser (not server rendered).
