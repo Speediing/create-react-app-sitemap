@@ -20,7 +20,7 @@ require('@babel/register')({
     ]
   });
 
-const router = require('./src/Routes').default;
+const router = require('./src/SiteMapRoutes').default;
 const Sitemap = require('react-router-sitemap').default;
 
 (
