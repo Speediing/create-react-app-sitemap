@@ -48,4 +48,4 @@ https://www.gymshark.com/sitemap_products_1.xml?from=6453246788&to=6805016412362
 </sitemap>
 </sitemapindex>`
 
-fs.writeFileSync('static/sitemap.xml', sitemap);
+fs.writeFileSync('./sitemap.xml', sitemap);
