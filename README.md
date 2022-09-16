@@ -1,6 +1,6 @@
-# Create React App
+# Create React App with Sitemaps
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site with sitemap generation that can be deployed to Vercel with zero configuration.
 
 ## Deploy Your Own
 
@@ -26,6 +26,6 @@ Launches the test runner in the interactive watch mode. See the section about [r
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.
+Builds the app for production to the `build` folder with the sitemap generator.
 
 It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
